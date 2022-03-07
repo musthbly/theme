@@ -16,10 +16,10 @@ hi StatusLineTerm ctermbg=NONE ctermfg=0
 hi StatusLineTermNC cterm=NONE ctermbg=NONE ctermfg=8
 hi VertSplit cterm=NONE ctermfg=8
 hi Visual ctermbg=4 ctermfg=7
-hi VisualNOS cterm=underline,bold
+hi VisualNOS cterm=NONE ctermbg=8 ctermfg=7
 hi Cursor ctermbg=7 ctermfg=7
 hi lCursor ctermbg=8 ctermfg=7
-hi MatchParen cterm=bold ctermbg=NONE ctermfg=NONE
+hi MatchParen ctermbg=6 ctermfg=7
 hi Directory ctermfg=4
 hi LineNr ctermfg=8
 hi MoreMsg ctermfg=2
@@ -42,8 +42,8 @@ hi SpellBad ctermbg=NONE ctermfg=1
 hi SpellCap ctermbg=NONE ctermfg=6
 hi SpellRare ctermbg=NONE ctermfg=6
 hi SpellLocal ctermbg=NONE ctermfg=6
-hi CursorLine cterm=bold
-hi CursorColumn cterm=bold ctermbg=NONE ctermfg=NONE
+hi CursorLine cterm=NONE ctermbg=NONE ctermfg=6
+hi CursorColumn cterm=NONE ctermbg=NONE ctermfg=6
 
 hi Comment ctermfg=1
 hi! link SpecialComment Comment

@@ -13,8 +13,8 @@ face global builtin default
 
 face global title blue
 face global header blue
-face global bold default+b
-face global italic default+i
+face global bold default
+face global italic default
 face global mono default
 face global block default
 face global link default
@@ -42,7 +42,7 @@ face global StatusLineInfo bright-black
 face global StatusLineValue green
 face global StatusCursor black,white
 face global Prompt bright-black
-face global MatchingChar default+b
+face global MatchingChar black,cyan+f
 face global Whitespace default+f
 face global BufferPadding bright-black
 remove-highlighter global/SearchResults
