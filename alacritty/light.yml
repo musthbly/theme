@@ -1,0 +1,44 @@
+black: &black "#303030"
+red: &red "#8f5e58"
+green: &green "#6a6c58"
+yellow: &yellow "#7b6758"
+blue: &blue "#5c6d78"
+magenta: &magenta "#7c608e"
+cyan: &cyan "#5a6f6c"
+white: &white "#ffffff"
+grey: &grey "#6a6a6a"
+colors:
+  primary:
+    background: *white
+    foreground: *black
+  normal:
+    black: *black
+    red: *red
+    green: *green
+    yellow: *yellow
+    blue: *blue
+    magenta: *magenta
+    cyan: *cyan
+    white: *white
+  bright:
+    black: *grey
+    red: *red
+    green: *green
+    yellow: *yellow
+    blue: *blue
+    magenta: *magenta
+    cyan: *cyan
+    white: *white
+  selection:
+    text: *white
+    background: *blue
+  search:
+    matches:
+      foreground: *white
+      background: *grey
+    focused_match:
+      foreground: *white
+      background: *blue
+    bar:
+      foreground: *grey
+      background: *white
