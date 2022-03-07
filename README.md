@@ -6,7 +6,7 @@ Light and dark colorscheme for use with terminals. Inspired by [Tomorrow](https:
 
 Colors were chosen using the [HSLuv](https://www.hsluv.org/) color space.
 
-## dark
+### dark
 
 | name    | image                    | hex      | H     | S    | L     |
 |---------|--------------------------|----------|-------|------|-------|
@@ -20,7 +20,7 @@ Colors were chosen using the [HSLuv](https://www.hsluv.org/) color space.
 | white   | ![white](./pub/d7.png)   | `c6c6c6` |   0.0 |  0.0 |  80.0 |
 | grey    | ![grey](./pub/d8.png)    | `919191` |   0.0 |  0.0 |  60.0 |
 
-## light
+### light
 
 | name    | image                    | hex      | H     | S    | L     |
 |---------|--------------------------|----------|-------|------|-------|
@@ -33,3 +33,13 @@ Colors were chosen using the [HSLuv](https://www.hsluv.org/) color space.
 | cyan    | ![cyan](./pub/l6.png)    | `5a6f6c` | 180.0 | 30.0 |  45.0 |
 | white   | ![white](./pub/l7.png)   | `ffffff` |   0.0 |  0.0 | 100.0 |
 | grey    | ![grey](./pub/l8.png)    | `6a6a6a` |   0.0 |  0.0 |  45.0 |
+
+## screenshots
+
+![Alacritty dark](./pub/da.png)
+
+![Alacritty light](./pub/la.png)
+
+![Kakoune dark](./pub/dk.png)
+
+![Kakoune light](./pub/lk.png)
