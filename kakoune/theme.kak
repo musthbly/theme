@@ -21,29 +21,28 @@ face global link default
 face global bullet default
 face global list default
 
-face global Default default,default
-face global PrimarySelection white,blue+fg
-face global SecondarySelection white,bright-black+fg
-face global PrimaryCursor white,black+fg
-face global SecondaryCursor white,black+fg
-face global PrimaryCursorEol white,black+fg
-face global SecondaryCursorEol white,black+fg
+face global Default default
+face global PrimarySelection blue+rfg
+face global SecondarySelection bright-black+rfg
+face global PrimaryCursor default+rfg
+face global SecondaryCursor default+rfg
+face global PrimaryCursorEol default+rfg
+face global SecondaryCursorEol default+rfg
 face global LineNumbers bright-black
 face global LineNumbersWrapped bright-black
 face global LineNumberCursor default
-face global MenuForeground white,bright-black
-face global MenuBackground white,black
+face global MenuForeground bright-black+r
+face global MenuBackground default+r
 face global MenuInfo bright-black
-face global Information white,bright-black
-face global Error white,red
+face global Information bright-black+r
+face global Error red+r
 face global StatusLine default
 face global StatusLineMode black
 face global StatusLineInfo bright-black
 face global StatusLineValue green
-face global StatusCursor white,black
+face global StatusCursor default+r
 face global Prompt bright-black
-face global MatchingChar white,cyan+f
-face global Whitespace default+f
+face global MatchingChar cyan+rf
+face global Whitespace bright-black+f
 face global BufferPadding bright-black
-remove-highlighter global/SearchResults
-add-highlighter global/SearchResults dynregex '%reg{slash}' 0:white,bright-black+F
+add-highlighter global/SearchResults dynregex '%reg{slash}' 0:yellow+f
