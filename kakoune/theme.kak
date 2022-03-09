@@ -11,8 +11,8 @@ face global comment red
 face global meta default
 face global builtin default
 
-face global title blue
-face global header blue
+face global title default
+face global header default
 face global bold default
 face global italic default
 face global mono default

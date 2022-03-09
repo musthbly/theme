@@ -7,33 +7,21 @@ let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 1
 let colors_name = "light"
 
 hi Normal ctermbg=NONE ctermfg=NONE
+hi Error ctermbg=1 ctermfg=7
+hi Ignore ctermfg=8
+hi Underlined cterm=underline ctermfg=0
 hi ErrorMsg ctermbg=1 ctermfg=7
 hi IncSearch cterm=NONE ctermbg=7 ctermfg=3
-hi ModeMsg cterm=NONE
-hi StatusLine cterm=NONE ctermfg=0
-hi StatusLineNC cterm=NONE ctermfg=8
-hi StatusLineTerm ctermbg=NONE ctermfg=0
-hi StatusLineTermNC cterm=NONE ctermbg=NONE ctermfg=8
-hi VertSplit cterm=NONE ctermfg=8
 hi Visual ctermbg=4 ctermfg=7
-hi VisualNOS cterm=NONE ctermbg=8 ctermfg=7
+hi! link VisualNOS Visual
 hi Cursor ctermbg=0 ctermfg=7
 hi! link lCursor Cursor
-hi! link Conceal Normal
 hi MatchParen ctermbg=6 ctermfg=7
-hi Directory ctermfg=4
-hi LineNr ctermfg=8
 hi MoreMsg ctermfg=2
-hi NonText ctermfg=8
 hi Question ctermfg=2
 hi Search cterm=NONE ctermbg=7 ctermfg=3
-hi SpecialKey ctermbg=NONE ctermfg=5
-hi Title ctermfg=4
 hi WarningMsg ctermbg=3 ctermfg=7
 hi WildMenu ctermbg=3 ctermfg=7
-hi Folded ctermbg=NONE ctermfg=8
-hi FoldColumn ctermbg=NONE ctermfg=8
-hi FoldColumn ctermbg=NONE ctermfg=8
 hi DiffAdd ctermbg=NONE ctermfg=2
 hi DiffChange ctermbg=NONE ctermfg=5
 hi DiffDelete ctermbg=NONE ctermfg=1
@@ -42,8 +30,25 @@ hi SpellBad ctermbg=NONE ctermfg=1
 hi SpellCap ctermbg=NONE ctermfg=6
 hi SpellRare ctermbg=NONE ctermfg=6
 hi SpellLocal ctermbg=NONE ctermfg=6
-hi CursorLine cterm=NONE ctermbg=NONE ctermfg=6
-hi CursorColumn cterm=NONE ctermbg=NONE ctermfg=6
+
+hi! link Conceal Normal
+hi! link CursorLine Normal
+hi! link CursorColumn Normal
+hi! link Directory Normal
+hi! link ModeMsg Normal
+hi! link NonText Ignore
+hi! link SpecialKey Normal
+hi! link StatusLine Normal
+hi! link StatusLineTerm Normal
+hi! link Title Normal
+
+hi! link Folded Ignore
+hi! link FoldColumn Ignore
+hi! link FoldColumn Ignore
+hi! link LineNr Ignore
+hi! link StatusLineNC Ignore
+hi! link StatusLineTermNC Ignore
+hi! link VertSplit Ignore
 
 hi Comment ctermfg=1
 hi! link SpecialComment Comment
@@ -58,7 +63,3 @@ hi! link Statement Normal
 hi! link PreProc Normal
 hi! link Type Normal
 hi! link Special Normal
-
-hi Error ctermbg=1 ctermfg=7
-hi Ignore ctermfg=8
-hi Underlined cterm=underline ctermfg=0
