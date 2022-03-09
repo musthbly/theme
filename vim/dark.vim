@@ -8,7 +8,7 @@ let colors_name = "dark"
 
 hi Normal ctermbg=NONE ctermfg=NONE
 hi ErrorMsg ctermbg=1 ctermfg=0
-hi IncSearch cterm=NONE ctermbg=NONE ctermfg=3
+hi IncSearch cterm=NONE ctermbg=0 ctermfg=3
 hi ModeMsg cterm=NONE
 hi StatusLine cterm=NONE ctermfg=7
 hi StatusLineNC cterm=NONE ctermfg=8

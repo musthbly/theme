@@ -8,7 +8,7 @@ let colors_name = "light"
 
 hi Normal ctermbg=NONE ctermfg=NONE
 hi ErrorMsg ctermbg=1 ctermfg=7
-hi IncSearch cterm=NONE ctermbg=NONE ctermfg=3
+hi IncSearch cterm=NONE ctermbg=7 ctermfg=3
 hi ModeMsg cterm=NONE
 hi StatusLine cterm=NONE ctermfg=0
 hi StatusLineNC cterm=NONE ctermfg=8
