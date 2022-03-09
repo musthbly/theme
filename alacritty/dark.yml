@@ -34,11 +34,11 @@ colors:
     background: *blue
   search:
     matches:
-      foreground: *black
-      background: *grey
+      foreground: *yellow
+      background: *black
     focused_match:
       foreground: *black
-      background: *blue
+      background: *yellow
     bar:
       foreground: *grey
       background: *black
