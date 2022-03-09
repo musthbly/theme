@@ -10,16 +10,13 @@ hi Normal ctermbg=NONE ctermfg=NONE
 hi Error ctermbg=NONE ctermfg=1
 hi! link ErrorMsg Error
 hi Ignore ctermfg=8
-hi Underlined cterm=underline ctermfg=7
-hi IncSearch cterm=NONE ctermbg=0 ctermfg=3
+hi Search cterm=NONE ctermbg=0 ctermfg=3
+hi! link IncSearch Search
 hi Visual ctermbg=4 ctermfg=0
 hi! link VisualNOS Visual
 hi Cursor ctermbg=7 ctermfg=0
 hi! link lCursor Cursor
 hi MatchParen ctermbg=6 ctermfg=0
-hi MoreMsg ctermfg=2
-hi Question ctermfg=2
-hi Search cterm=NONE ctermbg=0 ctermfg=3
 hi WarningMsg ctermbg=NONE ctermfg=3
 hi WildMenu ctermbg=7 ctermfg=0
 hi DiffAdd ctermbg=NONE ctermfg=2
@@ -32,10 +29,13 @@ hi! link CursorLine Normal
 hi! link DiffText Normal
 hi! link Directory Normal
 hi! link ModeMsg Normal
+hi! link MoreMsg Normal
+hi! link Question Normal
 hi! link SpecialKey Normal
 hi! link StatusLine Normal
 hi! link StatusLineTerm Normal
 hi! link Title Normal
+hi! link Underlined Normal
 
 hi! link Folded Ignore
 hi! link FoldColumn Ignore
