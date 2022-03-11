@@ -16,7 +16,7 @@ hi Visual ctermbg=4 ctermfg=0
 hi! link VisualNOS Visual
 hi Cursor ctermbg=7 ctermfg=0
 hi! link lCursor Cursor
-hi MatchParen ctermbg=6 ctermfg=0
+hi MatchParen ctermbg=8 ctermfg=0
 hi WarningMsg ctermbg=NONE ctermfg=3
 hi WildMenu ctermbg=7 ctermfg=0
 hi DiffAdd ctermbg=NONE ctermfg=2
