@@ -31,10 +31,10 @@ face global SecondaryCursorEol default+rfg
 face global LineNumbers bright-black
 face global LineNumbersWrapped bright-black
 face global LineNumberCursor default
-face global MenuForeground default+r
-face global MenuBackground default
-face global MenuInfo bright-black
-face global Information default
+face global MenuForeground bright-black+r
+face global MenuBackground default+r
+face global MenuInfo default
+face global Information bright-black+r
 face global Error red
 face global StatusLine default
 face global StatusLineMode default
