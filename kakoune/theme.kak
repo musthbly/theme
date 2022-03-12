@@ -45,4 +45,4 @@ face global Prompt bright-black
 face global MatchingChar cyan+f
 face global Whitespace bright-black+f
 face global BufferPadding bright-black
-add-highlighter global/SearchResults dynregex '%reg{slash}' 0:bright-black+rf
+add-highlighter -override global/SearchResults dynregex '%reg{slash}' 0:bright-black+rf
