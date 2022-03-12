@@ -36,6 +36,6 @@ Colors were chosen using the [HSLuv](https://www.hsluv.org/) color space.
 
 ## screenshots
 
-![Alacritty](./pub/ala.png)
+![dark msgcat, kakoune](./pub/dark.png)
 
-![Kakoune](./pub/kak.png)
+![light msgcat, kakoune](./pub/light.png)
