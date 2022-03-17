@@ -8,7 +8,7 @@ Light and dark colorscheme for use with terminals. Inspired by
 ## colors
 
 Colors were chosen using the
-[L*a*b*](https://en.wikipedia.org/wiki/CIELAB_color_space) color space.
+[L\*a\*b\*](https://en.wikipedia.org/wiki/CIELAB_color_space) color space.
 
 ### dark
 
