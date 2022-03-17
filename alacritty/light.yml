@@ -1,12 +1,12 @@
-black: &black "#262626"
-red: &red "#765752"
-green: &green "#5c614b"
-yellow: &yellow "#6f5a4b"
-blue: &blue "#576065"
-magenta: &magenta "#72575f"
-cyan: &cyan "#57605e"
-white: &white "#ffffff"
-grey: &grey "#5e5e5e"
+black: &black '#262626'
+red: &red '#765752'
+green: &green '#5c614b'
+yellow: &yellow '#6f5a4b'
+blue: &blue '#576065'
+magenta: &magenta '#72575f'
+cyan: &cyan '#57605e'
+white: &white '#ffffff'
+grey: &grey '#5e5e5e'
 colors:
   primary:
     background: *white
