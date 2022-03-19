@@ -12,7 +12,7 @@ hi Search cterm=NONE ctermbg=NONE ctermfg=3
 hi! link IncSearch Search
 hi Visual cterm=reverse ctermbg=NONE ctermfg=4
 hi! link VisualNOS Visual
-hi MatchParen ctermbg=NONE ctermfg=6
+hi MatchParen cterm=reverse ctermbg=NONE ctermfg=6
 hi WarningMsg ctermbg=NONE ctermfg=3
 hi WildMenu cterm=reverse ctermbg=NONE ctermfg=NONE
 hi DiffAdd ctermbg=NONE ctermfg=2

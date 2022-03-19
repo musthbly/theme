@@ -42,7 +42,7 @@ face global StatusLineInfo bright-black
 face global StatusLineValue green
 face global StatusCursor default+r
 face global Prompt bright-black
-face global MatchingChar cyan+f
+face global MatchingChar cyan+rf
 face global Whitespace bright-black+f
 face global BufferPadding bright-black
 add-highlighter -override global/SearchResults dynregex '%reg{slash}' 0:bright-black+rf
