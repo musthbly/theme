@@ -1,15 +1,6 @@
 #!/usr/bin/env dash
 
 gen () {
-  mogrify -draw 'color 0,0 reset' -fill "#$black" "img/$1/00.png"
-  mogrify -draw 'color 0,0 reset' -fill "#$red" "img/$1/01.png"
-  mogrify -draw 'color 0,0 reset' -fill "#$green" "img/$1/02.png"
-  mogrify -draw 'color 0,0 reset' -fill "#$yellow" "img/$1/03.png"
-  mogrify -draw 'color 0,0 reset' -fill "#$blue" "img/$1/04.png"
-  mogrify -draw 'color 0,0 reset' -fill "#$magenta" "img/$1/05.png"
-  mogrify -draw 'color 0,0 reset' -fill "#$cyan" "img/$1/06.png"
-  mogrify -draw 'color 0,0 reset' -fill "#$white" "img/$1/07.png"
-  mogrify -draw 'color 0,0 reset' -fill "#$grey" "img/$1/08.png"
   mogrify -strip "img/$1/*.png"
 
   sed -i.bak "alacritty/$1.yml" \
