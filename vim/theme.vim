@@ -5,19 +5,16 @@ endif
 let colors_name = "theme"
 
 hi Normal ctermbg=NONE ctermfg=NONE
-hi Error ctermbg=NONE ctermfg=1
+hi Error cterm=reverse ctermbg=NONE ctermfg=1
 hi! link ErrorMsg Error
 hi Ignore ctermfg=8
 hi Search cterm=NONE ctermbg=NONE ctermfg=3
 hi! link IncSearch Search
-if &background == "light"
-  hi Visual ctermbg=4 ctermfg=7
-else
-  hi Visual ctermbg=4 ctermfg=0
-endif
+hi Visual cterm=reverse ctermbg=NONE ctermfg=4
 hi! link VisualNOS Visual
 hi MatchParen ctermbg=NONE ctermfg=6
 hi WarningMsg ctermbg=NONE ctermfg=3
+hi WildMenu cterm=reverse ctermbg=NONE ctermfg=NONE
 hi DiffAdd ctermbg=NONE ctermfg=2
 hi DiffChange ctermbg=NONE ctermfg=5
 hi DiffDelete ctermbg=NONE ctermfg=1

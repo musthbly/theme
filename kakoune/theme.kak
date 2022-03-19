@@ -35,7 +35,7 @@ face global MenuForeground bright-black+r
 face global MenuBackground default+r
 face global MenuInfo default
 face global Information bright-black+r
-face global Error red
+face global Error red+r
 face global StatusLine default
 face global StatusLineMode default
 face global StatusLineInfo bright-black
