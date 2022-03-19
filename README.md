@@ -12,31 +12,31 @@ Colors were chosen using the
 
 ### dark
 
-| name    | image                          | hex      | L\* | a\* | b\* |
-|---------|--------------------------------|----------|-----|-----|-----|
-| black   | ![black](./img/dark/00.png)    | `1b1b1b` |  10 |   0 |   0 |
-| red     | ![red](./img/dark/01.png)      | `ab8983` |  60 |  12 |   8 |
-| green   | ![green](./img/dark/02.png)    | `8f937b` |  60 |  -6 |  12 |
-| yellow  | ![yellow](./img/dark/03.png)   | `a38c7c` |  60 |   6 |  12 |
-| blue    | ![blue](./img/dark/04.png)     | `89919e` |  60 |   0 |  -8 |
-| magenta | ![magenta](./img/dark/05.png)  | `a08a9f` |  60 |  12 |  -8 |
-| cyan    | ![cyan](./img/dark/06.png)     | `899390` |  60 |  -4 |   0 |
-| white   | ![white](./img/dark/07.png)    | `c6c6c6` |  80 |   0 |   0 |
-| grey    | ![grey](./img/dark/08.png)     | `919191` |  60 |   0 |   0 |
+| color                          | hex      | L\* | a\* | b\* |
+|--------------------------------|----------|-----|-----|-----|
+| ![](./img/dark/00.png) black   | `1b1b1b` |  10 |   0 |   0 |
+| ![](./img/dark/01.png) red     | `ae8883` |  60 |  14 |   8 |
+| ![](./img/dark/02.png) green   | `91967e` |  61 |  -6 |  12 |
+| ![](./img/dark/03.png) yellow  | `a68f7e` |  61 |   6 |  12 |
+| ![](./img/dark/04.png) blue    | `89919e` |  60 |   0 |  -8 |
+| ![](./img/dark/05.png) magenta | `a08a9f` |  60 |  12 |  -8 |
+| ![](./img/dark/06.png) cyan    | `889693` |  61 |  -6 |   0 |
+| ![](./img/dark/07.png) white   | `c6c6c6` |  80 |   0 |   0 |
+| ![](./img/dark/08.png) grey    | `919191` |  60 |   0 |   0 |
 
 ### light
 
-| name    | image                          | hex      | L\* | a\* | b\* |
-|---------|--------------------------------|----------|-----|-----|-----|
-| black   | ![black](./img/light/00.png)   | `262626` |  15 |   0 |   0 |
-| red     | ![red](./img/light/01.png)     | `765752` |  40 |  12 |   8 |
-| green   | ![green](./img/light/02.png)   | `5c614b` |  40 |  -6 |  12 |
-| yellow  | ![yellow](./img/light/03.png)  | `6f5a4b` |  40 |   6 |  12 |
-| blue    | ![blue](./img/light/04.png)    | `575f6b` |  40 |   0 |  -8 |
-| magenta | ![magenta](./img/light/05.png) | `6c586b` |  40 |  12 |  -8 |
-| cyan    | ![cyan](./img/light/06.png)    | `57605e` |  40 |  -4 |   0 |
-| white   | ![white](./img/light/07.png)   | `ffffff` | 100 |   0 |   0 |
-| grey    | ![grey](./img/light/08.png)    | `5e5e5e` |  40 |   0 |   0 |
+| color                           | hex      | L\* | a\* | b\* |
+|---------------------------------|----------|-----|-----|-----|
+| ![](./img/light/00.png) black   | `262626` |  15 |   0 |   0 |
+| ![](./img/light/01.png) red     | `795652` |  40 |  14 |   8 |
+| ![](./img/light/02.png) green   | `5f634d` |  41 |  -6 |  12 |
+| ![](./img/light/03.png) yellow  | `725d4d` |  41 |   6 |  12 |
+| ![](./img/light/04.png) blue    | `575f6b` |  40 |   0 |  -8 |
+| ![](./img/light/05.png) magenta | `6c586b` |  40 |  12 |  -8 |
+| ![](./img/light/06.png) cyan    | `566460` |  41 |  -6 |   0 |
+| ![](./img/light/07.png) white   | `ffffff` | 100 |   0 |   0 |
+| ![](./img/light/08.png) grey    | `5e5e5e` |  40 |   0 |   0 |
 
 ## screenshots
 

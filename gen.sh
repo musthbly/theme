@@ -25,23 +25,23 @@ gen () {
 }
 
 black=1b1b1b
-red=ab8983
-green=8f937b
-yellow=a38c7c
+red=ae8883
+green=91967e
+yellow=a68f7e
 blue=89919e
 magenta=a08a9f
-cyan=899390
+cyan=889693
 white=c6c6c6
 grey=919191
 gen dark
 
 black=262626
-red=765752
-green=5c614b
-yellow=6f5a4b
+red=795652
+green=5f634d
+yellow=725d4d
 blue=575f6b
 magenta=6c586b
-cyan=57605e
+cyan=566460
 white=ffffff
 grey=5e5e5e
 gen light
