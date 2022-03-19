@@ -10,15 +10,16 @@ cyan=899390
 white=c6c6c6
 grey=919191
 
-mogrify -draw 'color 0,0 reset' -fill "#$black" pub/d0.png
-mogrify -draw 'color 0,0 reset' -fill "#$red" pub/d1.png
-mogrify -draw 'color 0,0 reset' -fill "#$green" pub/d2.png
-mogrify -draw 'color 0,0 reset' -fill "#$yellow" pub/d3.png
-mogrify -draw 'color 0,0 reset' -fill "#$blue" pub/d4.png
-mogrify -draw 'color 0,0 reset' -fill "#$magenta" pub/d5.png
-mogrify -draw 'color 0,0 reset' -fill "#$cyan" pub/d6.png
-mogrify -draw 'color 0,0 reset' -fill "#$white" pub/d7.png
-mogrify -draw 'color 0,0 reset' -fill "#$grey" pub/d8.png
+mogrify -draw 'color 0,0 reset' -fill "#$black" img/dark/00.png
+mogrify -draw 'color 0,0 reset' -fill "#$red" img/dark/01.png
+mogrify -draw 'color 0,0 reset' -fill "#$green" img/dark/02.png
+mogrify -draw 'color 0,0 reset' -fill "#$yellow" img/dark/03.png
+mogrify -draw 'color 0,0 reset' -fill "#$blue" img/dark/04.png
+mogrify -draw 'color 0,0 reset' -fill "#$magenta" img/dark/05.png
+mogrify -draw 'color 0,0 reset' -fill "#$cyan" img/dark/06.png
+mogrify -draw 'color 0,0 reset' -fill "#$white" img/dark/07.png
+mogrify -draw 'color 0,0 reset' -fill "#$grey" img/dark/08.png
+mogrify -strip img/dark/*.png
 
 sed -i.bak alacritty/dark.yml \
   -e "s/black: \&black .*/black: \&black '#$black'/g" \
@@ -41,16 +42,16 @@ cyan=57605e
 white=ffffff
 grey=5e5e5e
 
-mogrify -draw 'color 0,0 reset' -fill "#$black" pub/l0.png
-mogrify -draw 'color 0,0 reset' -fill "#$red" pub/l1.png
-mogrify -draw 'color 0,0 reset' -fill "#$green" pub/l2.png
-mogrify -draw 'color 0,0 reset' -fill "#$yellow" pub/l3.png
-mogrify -draw 'color 0,0 reset' -fill "#$blue" pub/l4.png
-mogrify -draw 'color 0,0 reset' -fill "#$magenta" pub/l5.png
-mogrify -draw 'color 0,0 reset' -fill "#$cyan" pub/l6.png
-mogrify -draw 'color 0,0 reset' -fill "#$white" pub/l7.png
-mogrify -draw 'color 0,0 reset' -fill "#$grey" pub/l8.png
-mogrify -strip pub/*.png
+mogrify -draw 'color 0,0 reset' -fill "#$black" img/light/00.png
+mogrify -draw 'color 0,0 reset' -fill "#$red" img/light/01.png
+mogrify -draw 'color 0,0 reset' -fill "#$green" img/light/02.png
+mogrify -draw 'color 0,0 reset' -fill "#$yellow" img/light/03.png
+mogrify -draw 'color 0,0 reset' -fill "#$blue" img/light/04.png
+mogrify -draw 'color 0,0 reset' -fill "#$magenta" img/light/05.png
+mogrify -draw 'color 0,0 reset' -fill "#$cyan" img/light/06.png
+mogrify -draw 'color 0,0 reset' -fill "#$white" img/light/07.png
+mogrify -draw 'color 0,0 reset' -fill "#$grey" img/light/08.png
+mogrify -strip img/light/*.png
 
 sed -i.bak alacritty/light.yml \
   -e "s/black: \&black .*/black: \&black '#$black'/g" \
