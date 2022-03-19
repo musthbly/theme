@@ -40,6 +40,6 @@ Colors were chosen using the
 
 ## screenshots
 
-![dark msgcat, kakoune](./img/dark/ss.png)
+![dark msgcat, kakoune](./_img/dark/ss.png)
 
-![light msgcat, kakoune](./img/light/ss.png)
+![light msgcat, kakoune](./_img/light/ss.png)
