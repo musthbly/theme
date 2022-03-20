@@ -7,7 +7,6 @@ let colors_name = "theme"
 hi Normal ctermbg=NONE ctermfg=NONE
 hi Error cterm=reverse ctermbg=NONE ctermfg=1
 hi! link ErrorMsg Error
-hi Ignore ctermfg=8
 hi Search cterm=NONE ctermbg=NONE ctermfg=3
 hi! link IncSearch Search
 hi Visual cterm=reverse ctermbg=NONE ctermfg=4
@@ -24,27 +23,28 @@ hi! link CursorColumn Normal
 hi! link CursorLine Normal
 hi! link DiffText Normal
 hi! link Directory Normal
+hi! link Folded Normal
+hi! link FoldColumn Normal
+hi! link FoldColumn Normal
+hi! link Ignore Normal
+hi! link LineNr Normal
 hi! link ModeMsg Normal
 hi! link MoreMsg Normal
+hi! link NonText Normal
 hi! link Question Normal
 hi! link SpecialKey Normal
 hi! link StatusLine Normal
+hi! link StatusLineNC Normal
 hi! link StatusLineTerm Normal
+hi! link StatusLineTermNC Normal
 hi! link Title Normal
 hi! link Underlined Normal
+hi! link VertSplit Normal
 
-hi! link Folded Ignore
-hi! link FoldColumn Ignore
-hi! link FoldColumn Ignore
-hi! link LineNr Ignore
-hi! link NonText Ignore
-hi! link SpellBad Ignore
-hi! link SpellCap Ignore
-hi! link SpellRare Ignore
-hi! link SpellLocal Ignore
-hi! link StatusLineNC Ignore
-hi! link StatusLineTermNC Ignore
-hi! link VertSplit Ignore
+hi! link SpellBad Error
+hi! link SpellCap Error
+hi! link SpellRare WarningMsg
+hi! link SpellLocal WarningMsg
 
 hi Comment ctermfg=1
 hi! link SpecialComment Comment

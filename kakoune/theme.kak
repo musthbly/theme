@@ -23,26 +23,25 @@ face global list default
 
 face global Default default
 face global PrimarySelection blue+rfg
-face global SecondarySelection bright-black+rfg
+face global SecondarySelection green+rfg
 face global PrimaryCursor default+rfg
 face global SecondaryCursor default+rfg
 face global PrimaryCursorEol default+rfg
 face global SecondaryCursorEol default+rfg
-face global LineNumbers bright-black
-face global LineNumbersWrapped bright-black
+face global LineNumbers default
+face global LineNumbersWrapped default
 face global LineNumberCursor default
-face global MenuForeground bright-black+r
+face global MenuForeground blue+r
 face global MenuBackground default+r
 face global MenuInfo default
-face global Information bright-black+r
+face global Information blue+r
 face global Error red+r
 face global StatusLine default
 face global StatusLineMode default
-face global StatusLineInfo bright-black
-face global StatusLineValue green
+face global StatusLineInfo default
+face global StatusLineValue default
 face global StatusCursor default+r
-face global Prompt bright-black
+face global Prompt default
 face global MatchingChar cyan+rf
-face global Whitespace bright-black+f
-face global BufferPadding bright-black
-add-highlighter -override global/SearchResults dynregex '%reg{slash}' 0:bright-black+rf
+face global Whitespace default+f
+face global BufferPadding default

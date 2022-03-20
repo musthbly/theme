@@ -1,4 +1,6 @@
-d: &d '#1b1b1b'
+bg: &bg '#1b1b1b'
+fg: &fg '#c6c6c6'
+d: &d '#5e5e5e'
 r: &r '#ae8883'
 g: &g '#91967e'
 y: &y '#a68f7e'
@@ -6,18 +8,18 @@ b: &b '#89919e'
 m: &m '#a08a9f'
 c: &c '#889693'
 l: &l '#c6c6c6'
-dd: &dd '#919191'
-rr: &rr '#ae8883'
-gg: &gg '#91967e'
-yy: &yy '#a68f7e'
-bb: &bb '#89919e'
-mm: &mm '#a08a9f'
-cc: &cc '#889693'
-ll: &ll '#c6c6c6'
+dd: &dd '#303030'
+rr: &rr '#795652'
+gg: &gg '#5f634d'
+yy: &yy '#725d4d'
+bb: &bb '#575f6b'
+mm: &mm '#6c586b'
+cc: &cc '#566460'
+ll: &ll '#919191'
 colors:
   primary:
-    background: *d
-    foreground: *l
+    background: *bg
+    foreground: *fg
   normal:
     black: *d
     red: *r
@@ -37,15 +39,15 @@ colors:
     cyan: *cc
     white: *ll
   selection:
-    text: *d
+    text: *bg
     background: *b
   search:
     matches:
-      foreground: *y
-      background: *d
+      foreground: *bg
+      background: *g
     focused_match:
-      foreground: *d
+      foreground: *bg
       background: *y
     bar:
-      foreground: *dd
-      background: *d
+      foreground: *fg
+      background: *bg
