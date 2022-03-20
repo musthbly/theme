@@ -31,6 +31,13 @@ m=a08a9f
 c=889693
 l=c6c6c6
 dd=919191
+rr=ae8883
+gg=91967e
+yy=a68f7e
+bb=89919e
+mm=a08a9f
+cc=889693
+ll=c6c6c6
 gen dark
 
 d=262626
@@ -42,4 +49,11 @@ m=6c586b
 c=566460
 l=ffffff
 dd=5e5e5e
+rr=795652
+gg=5f634d
+yy=725d4d
+bb=575f6b
+mm=6c586b
+cc=566460
+ll=ffffff
 gen light
