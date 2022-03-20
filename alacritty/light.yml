@@ -1,44 +1,51 @@
-black: &black '#262626'
-red: &red '#795652'
-green: &green '#5f634d'
-yellow: &yellow '#725d4d'
-blue: &blue '#575f6b'
-magenta: &magenta '#6c586b'
-cyan: &cyan '#566460'
-white: &white '#ffffff'
-grey: &grey '#5e5e5e'
+d: &d '#262626'
+r: &r '#795652'
+g: &g '#5f634d'
+y: &y '#725d4d'
+b: &b '#575f6b'
+m: &m '#6c586b'
+c: &c '#566460'
+l: &l '#ffffff'
+dd: &dd '#5e5e5e'
+rr: &rr '#795652'
+gg: &gg '#5f634d'
+yy: &yy '#725d4d'
+bb: &bb '#575f6b'
+mm: &mm '#6c586b'
+cc: &cc '#566460'
+ll: &ll '#ffffff'
 colors:
   primary:
-    background: *white
-    foreground: *black
+    background: *l
+    foreground: *d
   normal:
-    black: *black
-    red: *red
-    green: *green
-    yellow: *yellow
-    blue: *blue
-    magenta: *magenta
-    cyan: *cyan
-    white: *white
+    black: *d
+    red: *r
+    green: *g
+    yellow: *y
+    blue: *b
+    magenta: *m
+    cyan: *c
+    white: *l
   bright:
-    black: *grey
-    red: *red
-    green: *green
-    yellow: *yellow
-    blue: *blue
-    magenta: *magenta
-    cyan: *cyan
-    white: *white
+    black: *dd
+    red: *rr
+    green: *gg
+    yellow: *yy
+    blue: *bb
+    magenta: *mm
+    cyan: *cc
+    white: *ll
   selection:
-    text: *white
-    background: *blue
+    text: *l
+    background: *b
   search:
     matches:
-      foreground: *yellow
-      background: *white
+      foreground: *y
+      background: *l
     focused_match:
-      foreground: *white
-      background: *yellow
+      foreground: *l
+      background: *y
     bar:
-      foreground: *grey
-      background: *white
+      foreground: *dd
+      background: *l

@@ -4,35 +4,42 @@ gen () {
   mogrify -strip "img/$1/*.png"
 
   sed -i.bak "alacritty/$1.yml" \
-    -e "s/black: \&black .*/black: \&black '#$black'/g" \
-    -e "s/red: \&red .*/red: \&red '#$red'/g" \
-    -e "s/green: \&green .*/green: \&green '#$green'/g" \
-    -e "s/yellow: \&yellow.*/yellow: \&yellow '#$yellow'/g" \
-    -e "s/blue: \&blue .*/blue: \&blue '#$blue'/g" \
-    -e "s/magenta: \&magenta .*/magenta: \&magenta '#$magenta'/g" \
-    -e "s/cyan: \&cyan .*/cyan: \&cyan '#$cyan'/g" \
-    -e "s/white: \&white .*/white: \&white '#$white'/g" \
-    -e "s/grey: \&grey .*/grey: \&grey '#$grey'/g"
+    -e "s/d: \&d .*/d: \&d '#$d'/g" \
+    -e "s/r: \&r .*/r: \&r '#$r'/g" \
+    -e "s/g: \&g .*/g: \&g '#$g'/g" \
+    -e "s/y: \&y.*/y: \&y '#$y'/g" \
+    -e "s/b: \&b .*/b: \&b '#$b'/g" \
+    -e "s/m: \&m .*/m: \&m '#$m'/g" \
+    -e "s/c: \&c .*/c: \&c '#$c'/g" \
+    -e "s/l: \&l .*/l: \&l '#$l'/g" \
+    -e "s/dd: \&dd .*/dd: \&dd '#$dd'/g" \
+    -e "s/rr: \&rr .*/rr: \&rr '#$rr'/g" \
+    -e "s/gg: \&gg .*/gg: \&gg '#$gg'/g" \
+    -e "s/yy: \&yy .*/yy: \&yy '#$yy'/g" \
+    -e "s/bb: \&bb .*/bb: \&bb '#$bb'/g" \
+    -e "s/mm: \&mm .*/mm: \&mm '#$mm'/g" \
+    -e "s/cc: \&cc .*/cc: \&cc '#$cc'/g" \
+    -e "s/ll: \&ll .*/ll: \&ll '#$ll'/g"
 }
 
-black=1b1b1b
-red=ae8883
-green=91967e
-yellow=a68f7e
-blue=89919e
-magenta=a08a9f
-cyan=889693
-white=c6c6c6
-grey=919191
+d=1b1b1b
+r=ae8883
+g=91967e
+y=a68f7e
+b=89919e
+m=a08a9f
+c=889693
+l=c6c6c6
+dd=919191
 gen dark
 
-black=262626
-red=795652
-green=5f634d
-yellow=725d4d
-blue=575f6b
-magenta=6c586b
-cyan=566460
-white=ffffff
-grey=5e5e5e
+d=262626
+r=795652
+g=5f634d
+y=725d4d
+b=575f6b
+m=6c586b
+c=566460
+l=ffffff
+dd=5e5e5e
 gen light
