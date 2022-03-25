@@ -46,7 +46,7 @@ hi! link SpellCap Error
 hi! link SpellRare WarningMsg
 hi! link SpellLocal WarningMsg
 
-hi Comment ctermfg=1
+hi Comment ctermfg=4
 hi! link SpecialComment Comment
 hi! link Todo Comment
 

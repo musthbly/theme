@@ -10,7 +10,3 @@ Light and dark colorscheme for use with terminals. Inspired by
 Colors were chosen using the CIELAB color space.
 
 ## screenshots
-
-![dark msgcat, kakoune](./_img/dark/ss.png)
-
-![light msgcat, kakoune](./_img/light/ss.png)

@@ -7,7 +7,7 @@ y: &y '#a68f7e'
 b: &b '#89919e'
 m: &m '#a08a9f'
 c: &c '#889693'
-l: &l '#c6c6c6'
+l: &l '#ababab'
 dd: &dd '#303030'
 rr: &rr '#795652'
 gg: &gg '#5f634d'
@@ -15,7 +15,7 @@ yy: &yy '#725d4d'
 bb: &bb '#575f6b'
 mm: &mm '#6c586b'
 cc: &cc '#566460'
-ll: &ll '#919191'
+ll: &ll '#848484'
 colors:
   primary:
     background: *bg
