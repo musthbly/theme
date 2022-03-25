@@ -39,15 +39,15 @@ colors:
     cyan: *cc
     white: *ll
   selection:
-    text: *bg
-    background: *b
+    text: *fg
+    background: *bb
   search:
     matches:
-      foreground: *bg
-      background: *g
+      foreground: *fg
+      background: *gg
     focused_match:
-      foreground: *bg
-      background: *y
+      foreground: *fg
+      background: *yy
     bar:
       foreground: *fg
       background: *bg

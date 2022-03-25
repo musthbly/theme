@@ -22,8 +22,8 @@ face global bullet default
 face global list default
 
 face global Default default
-face global PrimarySelection blue+rfg
-face global SecondarySelection green+rfg
+face global PrimarySelection default,bright-blue+fg
+face global SecondarySelection default,bright-green+fg
 face global PrimaryCursor default+rfg
 face global SecondaryCursor default+rfg
 face global PrimaryCursorEol default+rfg
@@ -42,6 +42,6 @@ face global StatusLineInfo default
 face global StatusLineValue default
 face global StatusCursor default+r
 face global Prompt default
-face global MatchingChar cyan+rf
+face global MatchingChar default,bright-cyan+f
 face global Whitespace default+f
 face global BufferPadding default
