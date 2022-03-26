@@ -2,6 +2,8 @@ colors:
   primary:
     background: *bg
     foreground: *fg
+    bright_foreground: *fg
+    dim_foreground: *fg
   normal:
     black: *d
     red: *r
@@ -20,16 +22,31 @@ colors:
     magenta: *mm
     cyan: *cc
     white: *ll
+  dim:
+    black: *dd
+    red: *rr
+    green: *gg
+    yellow: *yy
+    blue: *bb
+    magenta: *mm
+    cyan: *cc
+    white: *ll
+  cursor:
+    cursor: *fg
+    text: *bg
+  vi_mode_cursor:
+    cursor: *fg
+    text: *bg
   selection:
     text: *fg
     background: *bb
   search:
     matches:
-      foreground: *fg
       background: *gg
+      foreground: *fg
     focused_match:
-      foreground: *fg
       background: *yy
-    bar:
       foreground: *fg
+    bar:
       background: *bg
+      foreground: *fg
