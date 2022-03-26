@@ -1,25 +1,25 @@
 #!/usr/bin/env dash
 
-gen () {
-  sed -i.bak "alacritty/$1.yml" \
-    -e "s/^bg: \&bg.*/bg: \&bg '#$bg'/" \
-    -e "s/^fg: \&fg.*/fg: \&fg '#$fg'/" \
-    -e "s/^d: \&d.*/d: \&d '#$d'/" \
-    -e "s/^r: \&r.*/r: \&r '#$r'/" \
-    -e "s/^g: \&g.*/g: \&g '#$g'/" \
-    -e "s/^y: \&y.*/y: \&y '#$y'/" \
-    -e "s/^b: \&b.*/b: \&b '#$b'/" \
-    -e "s/^m: \&m.*/m: \&m '#$m'/" \
-    -e "s/^c: \&c.*/c: \&c '#$c'/" \
-    -e "s/^l: \&l.*/l: \&l '#$l'/" \
-    -e "s/^dd: \&dd.*/dd: \&dd '#$dd'/" \
-    -e "s/^rr: \&rr.*/rr: \&rr '#$rr'/" \
-    -e "s/^gg: \&gg.*/gg: \&gg '#$gg'/" \
-    -e "s/^yy: \&yy.*/yy: \&yy '#$yy'/" \
-    -e "s/^bb: \&bb.*/bb: \&bb '#$bb'/" \
-    -e "s/^mm: \&mm.*/mm: \&mm '#$mm'/" \
-    -e "s/^cc: \&cc.*/cc: \&cc '#$cc'/" \
-    -e "s/^ll: \&ll.*/ll: \&ll '#$ll'/"
+gen() {
+  echo "bg: &bg '#$bg'
+fg: &fg '#$fg'
+d: &d '#$d'
+r: &r '#$r'
+g: &g '#$g'
+y: &y '#$y'
+b: &b '#$b'
+m: &m '#$m'
+c: &c '#$c'
+l: &l '#$l'
+dd: &dd '#$dd'
+rr: &rr '#$rr'
+gg: &gg '#$gg'
+yy: &yy '#$yy'
+bb: &bb '#$bb'
+mm: &mm '#$mm'
+cc: &cc '#$cc'
+ll: &ll '#$ll'
+$(cat alacritty/base.yml)" > "alacritty/$1.yml"
 }
 
 bg=1b1b1b

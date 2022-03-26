@@ -1,0 +1,35 @@
+colors:
+  primary:
+    background: *bg
+    foreground: *fg
+  normal:
+    black: *d
+    red: *r
+    green: *g
+    yellow: *y
+    blue: *b
+    magenta: *m
+    cyan: *c
+    white: *l
+  bright:
+    black: *dd
+    red: *rr
+    green: *gg
+    yellow: *yy
+    blue: *bb
+    magenta: *mm
+    cyan: *cc
+    white: *ll
+  selection:
+    text: *fg
+    background: *bb
+  search:
+    matches:
+      foreground: *fg
+      background: *gg
+    focused_match:
+      foreground: *fg
+      background: *yy
+    bar:
+      foreground: *fg
+      background: *bg
